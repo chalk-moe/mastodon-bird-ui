@@ -1,3 +1,62 @@
+### 2.3.3: 2025-07-24
+
+* Fix odd box-shadow behind avatar-groups in 4.4.0-4.5.0-alpha.1
+
+### 2.3.2: 2025-07-21
+
+* Fix too large profile photo on mobile, Closes #166
+* Fix notification icon is always active on mobile, Closes #165
+
+### 2.3.1: 2025-07-10
+
+* Update instructions: Replace @import with @use #162, Closes #161 #152 #163 (thanks @SuperSandro2000!)
+* Fix missing close icon in the search input when it has value
+
+### 2.3.0: 2025-07-08
+
+* Bump version for Mastodon v4.4.0 stable
+* Prepare for v4.4.0-rc.1
+* Fix search icon position in v4.4.0-rc.1-2025-07-01 changes
+* Fix trend order in advanced column interface in v4.4.0-rc.1-2025-07-01 changes
+* Fixes to iPad and mobile views in v4.4.0-rc.1-2025-07-01
+* Add mobile navigation bar background color
+* Update stylelint rules: Disable alpha-value-notation
+* Fix overflow overlapping trending section if there are too many items
+* Make scrollbars more subtle, make side nav more compact in v4.4.0-beta.2
+* Revert: Make trending disappear erlier, Fixes #155
+* Hide separators in the new navigation panel, v4.4.0-beta.2
+* Fix indent for the new navigation panel, v4.4.0-beta.2
+* v4.4.0-beta.1: Fix the mobile navigation panel proportions
+* v4.4.0-beta.1: Speed up animation in the new mobile slideout navigation
+* Fix margin for separators
+* Fix too little gap between sign up and sign in buttons
+* Make trending disappear erlier, Fixes #155
+* Fix new .navigation-panel__list-panel position in v4.4.0-beta.1+mementomods-2025-06-14
+* Fix the icon not showing up for new .column-link__icon in v4.4.0-beta.1+mementomods-2025-06-14
+* Fix the order of the new "More" button in v4.4.0-beta.1+mementomods-2025-06-14
+* Styles for new lists panel in v4.4.0-beta.1+mementomods-2025-06-14
+* Remove extra margin from logo in v4.4.0-beta.1+mementomods-2025-06-14
+* Side note: Automatic light theme #136 can be fixed in v4.4.0-beta.1 easily by copying the light variables in their own file
+* Fix double icons in lists panel (this bug existed since 2.1.2rc12, just didn't see it before)
+* Use Mastodon Bird UI more icon in new column link for "More" in v4.4.0-beta.1+mementomods-2025-06-14
+* Support for completely rewritten bottom navigation bar and side menu for mobile in v4.4.0-beta.1+mementomods-2025-06-14
+* Fix about icon and hr separators in mobile navigation panel in v4.4.0-beta.1+mementomods-2025-06-14
+* Responsive fixes
+* Make sure popouts stay on top
+* Override new warning button color in v4.4.0-alpha.4+mementomods-2025-05-03, Ref: mastodon#33042, mastodon#25568
+* Fix video player aspect ratio in v4.4.0-alpha.4-2025-03-22
+* Fix missing profile share icon in optional buttons on Safari mobile
+* Fix regression with 2.1.2rc9, dot in class selector
+* Fix image placeholders when loading up on slow connections, Fixes #150
+* Fix hashtag more-icon showing two times
+* Fix default gap in status prepend
+* Fix double icons in list modal
+* Fix back button background on mobile
+* Fix double border on gifs
+* Fix media gallery with blurred image getting cut off
+* Fix search icon for 4.4.0-alpha.1+mementomods-2024-12-15 changes
+* Support new lists feature in Mastodon v4.4.0-alpha.1 (2024-12-15)
+
 ### 2.1.1: 2024-12-15
 
 * Reintroduce Threads-like media proportions for single column mode, missing since e2bb415 (2024-12-10)
@@ -953,7 +1012,7 @@
 * Fix detailed status button bubbles
 * Fix gap between list-adder list item and icon
 
-### 1.1.1: 2023-03-09 
+### 1.1.1: 2023-03-09
 
 * Fix always spinning boost button
 * Improve alignment of the bottom items on mobile
